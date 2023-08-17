@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,30 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var filled4d = require( '@stdlib/array-base-filled4d' );
-
-
-// MAIN //
+import { Collection } from '@stdlib/types/array';
 
 /**
 * Returns a zero-filled four-dimensional nested array.
 *
-* @param {NonNegativeIntegerArray} shape - array shape
-* @returns {Array} filled array
+* @param shape - array shape
+* @returns output array
 *
 * @example
 * var out = zeros4d( [ 1, 1, 1, 3 ] );
 * // returns [ [ [ [ 0.0, 0.0, 0.0 ] ] ] ]
 */
-function zeros4d( shape ) {
-	return filled4d( 0.0, shape );
-}
+declare function zeros4d( shape: Collection<number> ): Array<Array<Array<Array<number>>>>;
 
 
 // EXPORTS //
 
-module.exports = zeros4d;
+export = zeros4d;
