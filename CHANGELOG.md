@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-15)
+## Unreleased (2025-12-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`5bfa5e8`](https://github.com/stdlib-js/stdlib/commit/5bfa5e8ac36fe7abb9c8799560fb90c787999360) - **bench:** refactor to use string interpolation in `array/base/zeros4d` [(#9277)](https://github.com/stdlib-js/stdlib/pull/9277) _(by anee3)_
 -   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
 -   [`a147b7d`](https://github.com/stdlib-js/stdlib/commit/a147b7d6ef754925120fcc7bdec2b40842a3615a) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
@@ -26,9 +27,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   anee3
 
 </section>
 
